@@ -1,2 +1,60 @@
 body {
+	background-color: #9FBC9E;
+	color: #FF49C5;
+	font-family: verdana;
+}
+
+div {
+	margin: 0; padding: 0;
+}
+
+p {
+	margin: 0; padding: 0;
+}
+
+p#name {
+	width: 220px;
+	margin: 2px auto;
+}
+
+p.result {
+	display: inline-block;
+	padding: 10px 15px;
+	border-style: dashed;
+	font-size: 26px;
+	border-color: #932A72;
+	border-radius: 15px;
+	margin-top: 20px;
+	position: relative;
+	right: 70px;
+}
+
+p.answerTitle {
+	float: left;
+	font-size: 18px;
+	color: #526052;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+div.answerBox {
+	width: 700px;
+	height: 100px;
+	margin: 40px auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-style: solid;
+	border-color: #758975;
+	border-radius: 15%;
+	text-align: center;
+}
+
+div.title {
+	font-size: 46px;
+	width: 300px;
+	margin: 20px auto;
+	padding: 5px 10px;
+	border-style: dashed;
+	border-color: #5B1A47;
+	border-radius: 15px;
 }
